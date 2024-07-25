@@ -12,8 +12,6 @@ function HeaaderContent() {
                 <MenuLink linkname="Home" url="/" />
                 <MenuLink linkname="About" url="/about" />
                 <MenuLink linkname="Contact" url="/contact" />
-                <MenuLink linkname="Login" url="/login" />
-                <img src="vite.svg" alt="Vite Logo" />
             </div>
         </div>
     )

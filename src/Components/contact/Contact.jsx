@@ -1,6 +1,5 @@
 import React from 'react'
-import BodyContent from '../Components/BodyContent/BodyContent'
-import HeaaderContent from '../Components/HeaderContent/HeaaderContent'
+
 
 const Contact = () => {
     return (
