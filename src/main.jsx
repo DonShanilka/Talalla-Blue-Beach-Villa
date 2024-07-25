@@ -1,10 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Nav from './Components/navbar/navbar.jsx'
 import './index.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import About from './Components/about/about.jsx'
+import Contact from './Components/contact/Contact.jsx'
+
+const router = createBrowserRouter([
+  {
+    path: "/about",
+    element: <About />,
+
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Nav />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
