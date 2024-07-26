@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App'
+import About from './pages/about/aboutPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -10,11 +11,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
 
-  // {
-  //   path: "/about",
-  //   element: <About />,
+  {
+    path: "/about",
+    element: <About />,
 
-  // },
+  },
 
   // {
   //   path: "/contact",

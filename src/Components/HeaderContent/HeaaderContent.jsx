@@ -10,6 +10,8 @@ function HeaaderContent() {
             <div className="navbar">
                 <MenuLink linkname="Home" url="/" />
                 <MenuLink linkname="About" url="/about" />
+                <MenuLink linkname="Service" url="/service" />
+                <MenuLink linkname="Bookin" url="/bookin" />
                 <MenuLink linkname="Contact" url="/contact" />
             </div>
         </div>
