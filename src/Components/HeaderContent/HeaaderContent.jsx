@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuLink from '../../MenuLink/MenuLink';
+import MenuLink from '../MenuLink/MenuLink';
 import './Header.css'
 
 function HeaaderContent() {
@@ -7,12 +7,11 @@ function HeaaderContent() {
         <div id='navcontent'>
             <a href="http://www.react.dev"></a>
 
-            <div>
+            <div className="navbar">
                 <MenuLink linkname="Home" url="/" />
-                {/* <MenuLink linkname="About" url="/about" />
-                <MenuLink linkname="Contact" url="/contact" /> */}
+                <MenuLink linkname="About" url="/about" />
+                <MenuLink linkname="Contact" url="/contact" />
             </div>
-            <button>Sign in</button>
         </div>
     )
 }
