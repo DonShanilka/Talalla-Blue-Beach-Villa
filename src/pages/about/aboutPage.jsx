@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../../Components/HeaderContent/HeaaderContent'
 
 const aboutPage = () => {
     return (
-        <div>aboutPage</div>
+        <>
+            <Navbar />
+        </>
     )
 }
 
