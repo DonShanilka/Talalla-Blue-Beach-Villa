@@ -13,6 +13,8 @@ const Home = () => {
                 <div className='homePage-white-div'></div>
                 <div className='details-section'>
                     <h1>Welcome to the<br /> Talalla Blue Beach Villa </h1>
+                    <p>Life is a journey with moments that makes it special. If you are looking to create your next memory filled with nostalgia, we got just a piece of this heavenly island for you.</p>
+                    <button className='booking-button'>Booking</button>
                 </div>
             </div>
         </>

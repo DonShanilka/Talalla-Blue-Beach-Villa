@@ -10,7 +10,8 @@
 }
 
 .navbar {
+    position: absolute;
     padding: 12px;
     width: 20%;
-    left: 0%;
+    left: 70%;
 }
