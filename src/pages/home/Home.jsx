@@ -9,7 +9,9 @@ const Home = () => {
                 <div className='image-section'>
                     <img className='homePage-main-image' src="src\assets\HomePageImage\bluebeachvilla.JPG" alt="" />
                 </div>
-                <div id="main-white-rect"></div>
+                <div className='details-section'>
+                    <h1>Welcome to the<br /> Talalla Blue Beach Villa </h1>
+                </div>
             </div>
         </>
     )
