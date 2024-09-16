@@ -5,6 +5,7 @@ import './Header.css'
 function HeaaderContent() {
     return (
         <div id='navcontent'>
+            <img src="src\assets\HomePageImage\talla-blue-beach-villa-logo.png" alt="" className='hotel-log' />
             <a href="http://www.react.dev"></a>
 
             <div className="navbar">
