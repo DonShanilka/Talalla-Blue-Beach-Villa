@@ -1,9 +1,21 @@
-/* #main-black-rect {
+#main-white-rect {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.678);
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 70%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 70%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff", GradientType=1);
     z-index: 10;
     left: 0%;
     top: 0%;
-} */
+}
+
+.homePage-main-image {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    left: 0%;
+    top: 0%;
+}

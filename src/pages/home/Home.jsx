@@ -7,9 +7,9 @@ const Home = () => {
         <>
             <div className="home-page-main-rect">
                 <div>
-                    <img src="" alt="" />
+                    <img className='homePage-main-image' src="src\assets\HomePageImage\bluebeachvilla.JPG" alt="" />
                 </div>
-                <div id="main-black-rect"></div>
+                <div id="main-white-rect"></div>
             </div>
         </>
     )
