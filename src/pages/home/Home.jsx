@@ -18,6 +18,11 @@ const Home = () => {
                 </div>
                 <h5 className='followus-h5'>FOLLOW US</h5>
                 <div className='followus-line'></div>
+                <div className='social-image-div'>
+                    <img src="src\assets\HomePageImage\facebook-app-symbol.png" alt="" />
+                    <img src="src\assets\HomePageImage\instagram.png" alt="" />
+                    <img src="src\assets\HomePageImage\youtube (1).png" alt="" />
+                </div>
             </div>
             <div className='homePage-second-div'>
 
