@@ -15,7 +15,7 @@ const aboutPage = () => {
                 </p>
                 <div className='about-page-second-rect'>
                     <div className='image-01-rect'>
-                        <img src="src\assets\aboutPageImage\Villa-About-image-01.jpg" alt="" className='about-image-01' />
+                        <img src="src\assets\aboutPageImage\Villa-about-04.jpg" alt="" className='about-image-01' />
                     </div>
                     <div className='image-02-rect'>
                         <img src="src\assets\aboutPageImage\images (2).jpg" alt="" className='about-image-02' />
