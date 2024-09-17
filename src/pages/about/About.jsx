@@ -13,6 +13,9 @@ const aboutPage = () => {
                     a town just beyond Matara. The Villa is located in a cozy, unique and picturesque setting,
                     so your eyes can feast on a breathtaking view of the dusk and dawn escaping the usual crepuscular lifestyle.
                 </p>
+                <div className='about-page-second-rect'>
+
+                </div>
             </div>
         </>
     )

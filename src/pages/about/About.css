@@ -10,7 +10,7 @@
 .about-page-main-para {
     position: absolute;
     color: black;
-    top: 56%;
+    top: 55%;
     left: 50%;
     width: 40%;
     text-align: left;
@@ -19,20 +19,30 @@
 .about-page-main-div>h1 {
     position: absolute;
     color: rgb(0, 81, 255);
-    top: 35%;
+    top: 38%;
     left: 50%;
-    width: 40%;
+    width: 38%;
     text-align: left;
+    font-size: 40px;
 }
 
 .about-page-main-div>h5 {
     position: absolute;
     color: rgb(202, 178, 111);
-    top: 27%;
+    top: 30%;
     left: 50%;
     width: 40%;
     text-align: left;
     letter-spacing: 0.8vw;
     font-weight: bolder;
     font-size: large;
+}
+
+.about-page-second-rect {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 27%;
+    left: 10%;
+    background-color: blue;
 }
