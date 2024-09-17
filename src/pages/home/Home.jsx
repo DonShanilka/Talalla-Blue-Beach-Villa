@@ -24,9 +24,6 @@ const Home = () => {
                     <img src="src\assets\HomePageImage\youtube (1).png" alt="" />
                 </div>
             </div>
-            <div className='homePage-second-div'>
-
-            </div>
         </>
     )
 }

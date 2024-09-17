@@ -4,6 +4,7 @@ import './App.css'
 import BodyContent from './Components/BodyContent/BodyContent'
 import HeaaderContent from './Components/HeaderContent/HeaaderContent.jsx'
 import Homepage from './pages/home/Home.jsx'
+import AboutPage from './pages/about/About.jsx'
 
 
 function App() {
@@ -12,9 +13,8 @@ function App() {
       <div id="wrapper">
         <HeaaderContent />
       </div>
-      <BodyContent>
-        <Homepage />
-      </BodyContent>
+      <Homepage />
+      <AboutPage />
     </>
   )
 }
