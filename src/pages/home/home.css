@@ -41,7 +41,7 @@
 .details-section>h1 {
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 15%;
     color: black;
     text-align: left;
     z-index: 10;
@@ -50,7 +50,7 @@
 .details-section>p {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 15%;
     color: black;
     text-align: left;
     z-index: 10;
@@ -78,7 +78,7 @@
     vertical-align: baseline;
     transition: all .2s cubic-bezier(.22, .61, .36, 1);
     top: 65%;
-    left: 10%;
+    left: 15%;
     height: 6%;
     width: 10%;
 }
@@ -86,4 +86,22 @@
 .booking-button:hover {
     background-color: #004ab3;
     transform: translateY(-2px);
+}
+
+.homePage-second-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    left: 0%;
+    background-color: #ffffff;
+}
+
+.followus-h5 {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    color: black;
+    text-align: left;
+    z-index: 10;
 }
