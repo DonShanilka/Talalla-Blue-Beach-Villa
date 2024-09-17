@@ -7,6 +7,8 @@ const aboutPage = () => {
         <>
             <Navbar />
             <div className='about-page-main-div'>
+                <h1>EXPERIENCE SANTORINI IN SRI LANKA</h1>
+                <h5>DREAM IT OR LIVE IT</h5>
                 <p className='about-page-main-para'>Our beautiful beach villa inspired by the Greek city of Santorini is located in Talalla,
                     a town just beyond Matara. The Villa is located in a cozy, unique and picturesque setting,
                     so your eyes can feast on a breathtaking view of the dusk and dawn escaping the usual crepuscular lifestyle.

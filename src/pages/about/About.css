@@ -10,8 +10,29 @@
 .about-page-main-para {
     position: absolute;
     color: black;
-    top: 60%;
+    top: 56%;
     left: 50%;
     width: 40%;
     text-align: left;
+}
+
+.about-page-main-div>h1 {
+    position: absolute;
+    color: rgb(0, 81, 255);
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    text-align: left;
+}
+
+.about-page-main-div>h5 {
+    position: absolute;
+    color: rgb(202, 178, 111);
+    top: 27%;
+    left: 50%;
+    width: 40%;
+    text-align: left;
+    letter-spacing: 0.8vw;
+    font-weight: bolder;
+    font-size: large;
 }
