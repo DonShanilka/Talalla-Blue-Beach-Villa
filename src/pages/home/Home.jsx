@@ -16,7 +16,7 @@ const Home = () => {
                     <p>Life is a journey with moments that makes it special. If you are looking to create your next memory filled with nostalgia, we got just a piece of this heavenly island for you.</p>
                     <button className='booking-button'>Booking</button>
                 </div>
-                <h5 className='followus-h5'>Follow Us</h5>
+                <h5 className='followus-h5'>FOLLOW US</h5>
                 <div className='followus-line'></div>
             </div>
             <div className='homePage-second-div'>

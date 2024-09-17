@@ -100,8 +100,20 @@
 .followus-h5 {
     position: absolute;
     top: 30%;
-    left: 3%;
+    left: -0.5%;
     color: black;
     text-align: left;
-    z-index: 10;
+    transform: rotate(90deg);
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+}
+
+.followus-line {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: black;
+    top: 43%;
+    left: 3.5%;
 }
