@@ -14,7 +14,15 @@ const aboutPage = () => {
                     so your eyes can feast on a breathtaking view of the dusk and dawn escaping the usual crepuscular lifestyle.
                 </p>
                 <div className='about-page-second-rect'>
-
+                    <div className='image-01-rect'>
+                        <img src="src\assets\aboutPageImage\Villa-About-image-01.jpg" alt="" className='about-image-01' />
+                    </div>
+                    <div className='image-02-rect'>
+                        <img src="src\assets\aboutPageImage\images (2).jpg" alt="" className='about-image-02' />
+                    </div>
+                    <div className='image-03-rect'>
+                        <img src="src\assets\aboutPageImage\image 03.jpg" alt="" className='about-image-03' />
+                    </div>
                 </div>
             </div>
         </>

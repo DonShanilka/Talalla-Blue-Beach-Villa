@@ -46,3 +46,10 @@
     left: 10%;
     background-color: blue;
 }
+
+.about-page-second-rect>div>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
