@@ -1,8 +1,13 @@
 import React from 'react'
+import '../service/Service.css'
 
 function Service() {
     return (
-        <div>Service</div>
+        <>
+            <div className='service-page-main-div'>
+
+            </div>
+        </>
     )
 }
 

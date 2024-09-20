@@ -5,6 +5,7 @@ import BodyContent from './Components/BodyContent/BodyContent'
 import HeaaderContent from './Components/HeaderContent/HeaaderContent.jsx'
 import Homepage from './pages/home/Home.jsx'
 import AboutPage from './pages/about/About.jsx'
+import Service from './pages/service/Service.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       </div>
       <Homepage />
       <AboutPage />
+      <Service />
     </>
   )
 }
