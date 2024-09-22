@@ -4,9 +4,11 @@ import '../service/Service.css'
 function Service() {
     return (
         <>
-            <div className='service-page-main-div'>
-                
-            </div>
+            <section>
+                <div className='service-page-main-div'>
+                    <img src="src\assets\servicepageImage\servicePageImage.jpg" alt="" className='homePage-main-image' />
+                </div>
+            </section>
         </>
     )
 }
