@@ -7,7 +7,10 @@ function Service() {
             <section>
                 <div className='service-page-main-div'>
                     <div className='image-div'>
-                        <img src="src\assets\servicepageImage\servicePageImage.jpg" alt="" className='service-main-image' />
+                        <img src="src\assets\servicepageImage\IMG_7957.JPG" alt="" className='service-main-image' />
+                    </div>
+                    <div className='service-details-div'>
+
                     </div>
                 </div>
             </section>

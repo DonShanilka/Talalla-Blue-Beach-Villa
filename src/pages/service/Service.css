@@ -9,14 +9,22 @@
 
 .image-div {
     position: absolute;
-    width: 25%;
-    height: 70%;
-    left: 25%;
-    top: 20%;
+    width: 60%;
+    height: 60%;
+    left: 0%;
+    top: 25%;
 }
 
 .service-main-image {
     position: absolute;
+    left: 0%;
     width: 100%;
     height: 100%;
+}
+
+.service-details-div {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: aqua;
 }
