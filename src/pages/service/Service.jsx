@@ -5,7 +5,7 @@ function Service() {
     return (
         <>
             <div className='service-page-main-div'>
-
+                
             </div>
         </>
     )
