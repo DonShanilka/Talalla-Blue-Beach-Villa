@@ -27,8 +27,17 @@ function Villascard() {
     return (
         <>
             <div>Villascard</div>
-            <div className='card'>
-
+            <div className='card' style={{
+                position: "absolute", zIndex: 5,
+                top: "20%", left: "10%", width: "100%",
+                color: "black"
+            }}>
+                <Carousel responsive={responsive}>
+                    <div>Item 1</div>
+                    <div>Item 2</div>
+                    <div>Item 3</div>
+                    <div>Item 4</div>
+                </Carousel>;
             </div>
         </>
     )
