@@ -1,0 +1,22 @@
+.card {
+    position: relative;
+    color: black;
+    height: 550px;
+    top: 120px;
+    background-color: blue;
+}
+
+.card-details-div {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 40%;
+    width: 70%;
+    background-color: aqua;
+}
+
+.card>img {
+    position: absolute;
+    width: 300;
+    height: 180;
+}
