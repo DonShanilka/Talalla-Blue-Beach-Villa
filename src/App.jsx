@@ -6,6 +6,7 @@ import HeaaderContent from './Components/HeaderContent/HeaaderContent.jsx'
 import Homepage from './pages/home/Home.jsx'
 import AboutPage from './pages/about/About.jsx'
 import Service from './pages/service/Service.jsx';
+import Bookingpage from './pages/booking/Bookingpage.jsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Homepage />
       <AboutPage />
       <Service />
+      <Bookingpage />
     </>
   )
 }
