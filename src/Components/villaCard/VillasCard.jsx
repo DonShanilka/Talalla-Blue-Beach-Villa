@@ -29,15 +29,32 @@ function Villascard() {
             <div>Villascard</div>
             <div className='card' style={{
                 position: "absolute", zIndex: 5,
-                top: "20%", left: "10%", width: "100%",
-                color: "black"
+                top: "20%", left: "-5%", width: "100%",
+                color: "black", overlay: "none"
             }}>
                 <Carousel responsive={responsive}>
-                    <div>Item 1</div>
+                    <div>
+                        <img src="src\assets\villasImage\villa-zendaya-3.jpg" alt="product" width={300} height={180} />
+                        <h2>Villa Zendaya</h2>
+                        <div className='card-01-details-div'>
+                            <div>
+                                <p>Double Bedrooms x 2</p>
+                            </div>
+                            <div>
+                                <p>Bathrooms x 2</p>
+                            </div>
+                            <div>
+                                <p> Free WiFi,  Minibar,</p>
+                            </div>
+                            <div>
+                                <p>Air conditioning,  Bathtub</p>
+                            </div>
+                        </div>
+                    </div>
                     <div>Item 2</div>
                     <div>Item 3</div>
                     <div>Item 4</div>
-                </Carousel>;
+                </Carousel>
             </div>
         </>
     )
