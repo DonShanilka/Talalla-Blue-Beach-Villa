@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .card {
     position: relative;
     color: black;
@@ -27,8 +29,16 @@
 }
 
 .explore-villas-button {
-    margin: 35px;
+    margin: 25px;
     border-radius: 0px;
-    background-color: rgb(0, 46, 145);
-    ;
+    background-color: rgb(0, 81, 255);
+}
+
+.card-details-h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    margin: 10px;
+    color: rgb(0, 9, 141);
 }

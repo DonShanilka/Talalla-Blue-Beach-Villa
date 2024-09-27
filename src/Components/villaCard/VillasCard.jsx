@@ -13,7 +13,7 @@ function Villascard(props) {
                     <img src={props.url} alt="villas" />
                 </div>
                 <div className='card-details-div'>
-                    <h2>{props.name}</h2>
+                    <h2 className='card-details-h2'>{props.name}</h2>
                     <div>
                         <p>{props.dis1}</p>
                     </div>
