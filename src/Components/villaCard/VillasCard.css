@@ -15,8 +15,10 @@
     background-color: aqua;
 }
 
-.card>img {
+.card>.cadr-image-div>img {
     position: absolute;
-    width: 20%;
+    left: 15%;
+    width: 70%;
     height: 180px;
+    background-color: antiquewhite;
 }

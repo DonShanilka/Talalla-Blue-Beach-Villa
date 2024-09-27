@@ -9,7 +9,7 @@ function Villascard(props) {
         <>
             <div>Villascard</div>
             <div className='card'>
-                <div>
+                <div className='cadr-image-div'>
                     <img src={props.url} alt="villas" />
                 </div>
                 <div className='card-details-div'>
