@@ -26,7 +26,7 @@ function Villascard(props) {
                     <div>
                         <p>{props.dis4}</p>
                     </div>
-                    <button>Explore villa</button>
+                    <button className='explore-villas-button'>Explore villa</button>
                 </div>
             </div>
         </>

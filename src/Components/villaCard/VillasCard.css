@@ -3,16 +3,18 @@
     color: black;
     height: 550px;
     top: 120px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 .card-details-div {
     position: absolute;
-    top: 35%;
+    top: 34%;
     left: 15%;
     height: 40%;
     width: 70%;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
 }
 
 .card>.cadr-image-div>img {
