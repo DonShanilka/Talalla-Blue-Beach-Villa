@@ -22,5 +22,13 @@
     left: 15%;
     width: 70%;
     height: 180px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 246, 234);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.explore-villas-button {
+    margin: 35px;
+    border-radius: 0px;
+    background-color: rgb(0, 46, 145);
+    ;
 }

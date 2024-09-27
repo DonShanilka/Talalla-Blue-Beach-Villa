@@ -31,7 +31,7 @@ function Bookingpage() {
         {
             id: 1,
             imageUrl: 'https://talallablue.com/wp-content/uploads/2022/05/villa-zendaya-3-1024x576.jpg',
-            alt: "villas",
+            alt: "Villa Zendaya",
             price: "$50",
             dis1: "Double Bedrooms x 2",
             dis2: "Bathrooms x 2",
@@ -40,8 +40,8 @@ function Bookingpage() {
         },
         {
             id: 2,
-            imageUrl: "src\assets\villasImage\villa-zendaya-3.jpg",
-            alt: "villas",
+            imageUrl: "https://talallablue.com/wp-content/uploads/2022/05/villa-arbella-1-1024x576.jpg",
+            alt: "Villa Arabella",
             price: "$50",
             dis1: "Double Bedrooms x 2",
             dis2: "Bathrooms x 2",
@@ -50,8 +50,8 @@ function Bookingpage() {
         },
         {
             id: 3,
-            imageUrl: "src\assets\villasImage\villa-zendaya-3.jpg",
-            alt: "villas",
+            imageUrl: "https://talallablue.com/wp-content/uploads/2022/05/villa-maddalina-1-1024x576.jpg",
+            alt: "Villa Maddalina",
             price: "$50",
             dis1: "Double Bedrooms x 2",
             dis2: "Bathrooms x 2",
@@ -60,8 +60,8 @@ function Bookingpage() {
         },
         {
             id: 4,
-            imageUrl: "src\assets\villasImage\villa-zendaya-3.jpg",
-            alt: "villas",
+            imageUrl: "https://talallablue.com/wp-content/uploads/2022/05/villa-vallentina-1-1024x576.jpg",
+            alt: "Villa Valentina",
             price: "$50",
             dis1: "Double Bedrooms x 2",
             dis2: "Bathrooms x 2",
@@ -70,8 +70,8 @@ function Bookingpage() {
         },
         {
             id: 5,
-            imageUrl: "src\assets\villasImage\villa-zendaya-3.jpg",
-            alt: "villas",
+            imageUrl: "https://talallablue.com/wp-content/uploads/2022/05/villa-santa-maria-1-1024x576.jpg",
+            alt: "Villa Santa Maria",
             price: "$50",
             dis1: "Double Bedrooms x 2",
             dis2: "Bathrooms x 2",
