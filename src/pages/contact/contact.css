@@ -1,0 +1,54 @@
+.contact-page-main-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 400%;
+    left: 0%;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+}
+
+.form-div-2 {
+    background-color: rgb(236, 236, 236);
+    margin: 20px;
+}
+
+.input-1,
+.input-2,
+.input-3,
+.input-4 {
+    width: 390px;
+    height: 35px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px blue solid;
+    border-radius: 5px;
+}
+
+.input-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 810px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px blue solid;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 810px;
+    margin: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
