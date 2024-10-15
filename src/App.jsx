@@ -7,7 +7,9 @@ import Homepage from './pages/home/Home.jsx'
 import AboutPage from './pages/about/About.jsx'
 import Service from './pages/service/Service.jsx';
 import Bookingpage from './pages/booking/Bookingpage.jsx';
+import ContactPage from './pages/contact/contactPage.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       <AboutPage />
       <Service />
       <Bookingpage />
+      <ContactPage />
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<AboutPage />} />
