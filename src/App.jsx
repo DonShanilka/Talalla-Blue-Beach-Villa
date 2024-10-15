@@ -14,6 +14,15 @@ function App() {
   return (
     <div className='app'>
       <HeaaderContent />
+      <AboutPage />
+      <Service />
+      <Bookingpage />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/service' element={<Service />} />
+        <Route path='/booking' element={<Bookingpage />} />
+      </Routes>
     </div>
   )
 }

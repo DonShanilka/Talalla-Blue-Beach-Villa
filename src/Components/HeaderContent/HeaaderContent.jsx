@@ -13,11 +13,11 @@ function HeaaderContent() {
 
             <div className="navbar">
                 <ul className='navbar-menu'>
-                    <li className={menu === "home" ? "active" : ""}>Home</li>
-                    <li className={menu === "about" ? "active" : ""}>About</li>
-                    <li className={menu === "service" ? "active" : ""}>Service</li>
-                    <li className={menu === "booking" ? "active" : ""}>Booking</li>
-                    <li className={menu === "contact" ? "active" : ""}>Contact</li>
+                    <li onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>Home</li>
+                    <li onClick={() => setMenu("about")} className={menu === "about" ? "active" : ""}>About</li>
+                    <li onClick={() => setMenu("service")} className={menu === "service" ? "active" : ""}>Service</li>
+                    <li onClick={() => setMenu("booking")} className={menu === "booking" ? "active" : ""}>Booking</li>
+                    <li onClick={() => setMenu("contact")} className={menu === "contact" ? "active" : ""}>Contact</li>
                 </ul>
             </div>
         </div>
