@@ -12,19 +12,19 @@
     grid-template-columns: auto auto;
     width: 70%;
     background-color: rgb(236, 236, 236);
-    position: absolute;
 }
 
 .form-div-2 {
     background-color: rgb(236, 236, 236);
     margin: 20px;
+    width: 90%;
 }
 
 .input-1,
 .input-2,
 .input-3,
 .input-4 {
-    width: 390px;
+    width: 46%;
     height: 35px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
@@ -37,7 +37,7 @@
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 5;
-    width: 810px;
+    width: 94%;
     height: 100px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
@@ -46,7 +46,7 @@
 }
 
 .submit-btn {
-    width: 810px;
+    width: 94%;
     margin: 10px;
     background-color: blue;
     border: none;
