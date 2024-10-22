@@ -8,6 +8,7 @@
 }
 
 .form-container {
+    position: absolute;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -15,6 +16,8 @@
     width: 50%;
     height: 70%;
     height: 40%;
+    left: 3%;
+    bottom: 15%;
 }
 
 h2 {
@@ -42,6 +45,31 @@ textarea {
     font-size: 16px;
     background-color: #ffffff;
     color: #000000;
+}
+
+::placeholder {
+    color: #c9c9c9;
+}
+
+.name-input {
+    width: 44%;
+}
+
+.email-input {
+    position: absolute;
+    right: 3%;
+    width: 44%;
+}
+
+.phone-input {
+    width: 44%;
+}
+
+.address-input {
+    position: absolute;
+    right: 3%;
+    width: 44%;
+    top: 25%;
 }
 
 input:focus,
