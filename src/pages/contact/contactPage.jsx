@@ -5,7 +5,7 @@ function ContactPage() {
     return (
         <>
             <section>
-                <div className='contact-page-main-div'>
+                <div id="contact" className='contact-page-main-div'>
                     <div>
                         <div>
                             <iframe src="" frameborder="0"></iframe>

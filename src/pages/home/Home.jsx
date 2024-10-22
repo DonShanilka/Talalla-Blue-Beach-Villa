@@ -1,12 +1,12 @@
 import React from 'react'
 import '../home/Home.css'
-
+import '../../Components/HeaderContent/HeaaderContent'
 
 const Home = () => {
     return (
         <>
             <section>
-                <div className="home-page-main-rect">
+                <div id='home' className="home-page-main-rect">
                     <div className='image-section'>
                         <img className='homePage-main-image' src="src\assets\HomePageImage\bluebeachvilla.JPG" alt="" />
 
