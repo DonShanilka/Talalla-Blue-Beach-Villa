@@ -8,9 +8,9 @@ function Footer() {
                 {/* Address and Contact Section */}
                 <div className="footer-section contact-info">
                     <h3>Contact Us</h3>
-                    <p><strong>Address:</strong> 123 Beach Road, Santorini Villa, Talalla, Sri Lanka</p>
-                    <p><strong>Phone:</strong> +94 123 456 789</p>
-                    <p><strong>Email:</strong> info@santorinivilla.com</p>
+                    <p><strong>Address:</strong> <br /> 123 Beach Road, Santorini Villa, Talalla, Sri Lanka</p> <br />
+                    <p><strong>Phone:</strong> <br /> +94 123 456 789</p> <br />
+                    <p><strong>Email:</strong> <br /> info@santorinivilla.com</p>
                 </div>
 
                 {/* Quick Links Section */}
@@ -30,13 +30,13 @@ function Footer() {
                     <h3>Follow Us</h3>
                     <div className="social-icons">
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                            <img src={require('src/assets/icons/facebook.png')} alt="Facebook" />
+                            {/* <img src={require('src/assets/icons/facebook.png')} alt="Facebook" /> */}
                         </a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                            <img src={require('src/assets/icons/instagram.png')} alt="Instagram" />
+                            {/* <img src={require('src/assets/icons/instagram.png')} alt="Instagram" /> */}
                         </a>
                         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                            <img src={require('src/assets/icons/twitter.png')} alt="Twitter" />
+                            {/* <img src={require('src/assets/icons/twitter.png')} alt="Twitter" /> */}
                         </a>
                     </div>
                 </div>

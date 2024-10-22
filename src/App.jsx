@@ -9,6 +9,7 @@ import Service from './pages/service/Service.jsx';
 import Bookingpage from './pages/booking/Bookingpage.jsx';
 import ContactPage from './pages/contact/contactPage.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from './Components/footer/Footer.jsx';
 
 
 
@@ -21,12 +22,7 @@ function App() {
       <Service />
       <Bookingpage />
       <ContactPage />
-      {/* <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/service' element={<Service />} />
-        <Route path='/booking' element={<Bookingpage />} />
-      </Routes> */}
+      <Footer />
     </div>
   )
 }
