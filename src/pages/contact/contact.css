@@ -136,3 +136,11 @@ h2 {
     margin-bottom: 15px;
     color: #007BFF;
 }
+
+.contact-us-h1 {
+    position: absolute;
+    color: #000000;
+    top: 36%;
+    left: 4.5%;
+    font-size: larger;
+}

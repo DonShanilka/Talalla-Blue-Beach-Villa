@@ -30,11 +30,8 @@ function ContactPage() {
         <>
             <section>
                 <div id="contact" className='contact-page-main-div'>
+                    <h1 className='contact-us-h1'>Contact US</h1>
                     <div>
-                        <div>
-                            <iframe src="" frameborder="0"></iframe>
-                        </div>
-
                         <div className="form-container">
                             <form onSubmit={handleSubmit}>
 
