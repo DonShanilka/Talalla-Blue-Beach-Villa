@@ -5,6 +5,7 @@ import Villascard from '../../Components/villaCard/Villascard.jsx'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+
 function Bookingpage() {
 
     const responsive = {
@@ -84,7 +85,7 @@ function Bookingpage() {
 
     return (
         <section>
-            <div className='booking-page-main-div'>
+            <div id='booking' className='booking-page-main-div'>
                 <Carousel responsive={responsive}>{product}</Carousel>
             </div>
         </section>

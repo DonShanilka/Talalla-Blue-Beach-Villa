@@ -1,6 +1,5 @@
 import React from 'react'
 import '../home/Home.css'
-import '../../Components/HeaderContent/HeaaderContent'
 
 const Home = () => {
     return (
