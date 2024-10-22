@@ -9,10 +9,9 @@
 
 .form-container {
     position: absolute;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     width: 50%;
     height: 70%;
     height: 40%;
@@ -90,4 +89,50 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    right: 5%;
+    bottom: 10%;
+    text-align: left;
+}
+
+.contact-details h3 {
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-details strong {
+    color: #333;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    margin-bottom: 15px;
+    color: #007BFF;
 }

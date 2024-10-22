@@ -104,15 +104,9 @@ function ContactPage() {
 
                     <div className="contact-details">
                         <h3>Our Contact Details</h3>
-                        <p><strong>Address:</strong> 123 Beach Road, Santorini Villa, Talalla, Sri Lanka</p>
-                        <p><strong>Contact Number:</strong> +94 123 456 789</p>
-                        <p><strong>Open Hours:</strong> Monday - Sunday, 9:00 AM - 6:00 PM</p>
-                    </div>
-
-                    {/* Form Section (optional, already implemented in FormComponent.js) */}
-                    <div className="contact-form">
-                        <h3>Leave Us a Message</h3>
-                        {/* You can import and use FormComponent here if needed */}
+                        <p><strong>Address:</strong> <br /> 123 Beach Road, Santorini Villa, Talalla, Sri Lanka</p> <br />
+                        <p><strong>Contact Number:</strong> <br /> +94 123 456 789</p> <br />
+                        <p><strong>Open Hours:</strong> <br /> Monday - Sunday, 9:00 AM - 6:00 PM</p>
                     </div>
                 </div>
             </section>
