@@ -1,7 +1,7 @@
 import React from 'react'
 import '../booking/Booking.css'
 import { Card } from '@mui/material'
-import Villascard from '../../Components/villaCard/Villascard.jsx'
+import Villascard from '../../Components/villaCard/VillasCard'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
